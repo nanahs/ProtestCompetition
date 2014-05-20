@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sample Assets/Cameras/Camera Guidelines.txt">
+    <Files>
+      <File FileName="Assets/Sample Assets/2D/Scripts/Platformer2DUserControl.cs" Line="28" Column="11" />
+      <File FileName="Assets/Sample Assets/Cameras/Scripts/FreeLookCam.cs" Line="74" Column="1" />
+      <File FileName="Assets/Sample Assets/Cameras/Camera Guidelines.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
