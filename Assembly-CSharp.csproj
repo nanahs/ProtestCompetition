@@ -111,7 +111,8 @@
      <Compile Include="Assets\Sample Assets\Utility\TimedObjectActivator.cs" />
      <Compile Include="Assets\Sample Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Sample Assets\Utility\WaypointProgressTracker.cs" />
-     <Compile Include="Assets\Scripts\PlaceHolder.cs" />
+     <Compile Include="Assets\Scripts\MoveableSprite.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Sample Assets\Effects\Light Shafts\Shaders\SamplePositions.shader" />
      <None Include="Assets\Sample Assets\Effects\Image Effects (Pro Only)\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />

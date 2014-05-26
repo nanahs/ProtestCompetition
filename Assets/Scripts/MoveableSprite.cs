@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlaceHolder : MonoBehaviour {
+[RequireComponent (typeof(Rigidbody2D))]
+
+public class MoveableSprite : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
