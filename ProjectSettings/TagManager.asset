@@ -7,20 +7,21 @@ TagManager:
   - Dangerous
   - Smelly
   - Fire
+  - Protester
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
   Builtin Layer 2: Ignore Raycast
   Builtin Layer 3: 
   Builtin Layer 4: Water
-  Builtin Layer 5: 
+  Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
   User Layer 8: Vehicles
   User Layer 9: Characters
   User Layer 10: Floor
-  User Layer 11: 
-  User Layer 12: 
+  User Layer 11: Follower
+  User Layer 12: Player
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
@@ -53,7 +54,11 @@ TagManager:
     userID: 2
     uniqueID: 1859086223
     locked: 0
-  - name: Characters
+  - name: Protestors
+    userID: 5
+    uniqueID: 2096434321
+    locked: 0
+  - name: Player
     userID: 3
     uniqueID: 3940858523
     locked: 0
