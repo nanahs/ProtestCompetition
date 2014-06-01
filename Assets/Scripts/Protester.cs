@@ -7,8 +7,8 @@ public class Protester : MonoBehaviour {
 	public float jumpHeight = 1f;
 
 	public float jumpCountdown = 0f;
-	private bool canJump = false;
-	private bool canDrop = false;
+	public bool canJump = false;
+	public bool canDrop = false;
 
 
 	private float jumpStart;
@@ -31,27 +31,36 @@ public class Protester : MonoBehaviour {
 		}
 
 
+
+
 	
 	}
 
 	void FixedUpdate(){
 
 		if(canJump){
-			rigidbody2D.MovePosition(new Vector2(transform.position.x, Mathf.MoveTowards(transform.position.y, jumpDest, .2f)));
 
+			
+			rigidbody2D.MovePosition(new Vector2(transform.position.x, Mathf.MoveTowards(transform.position.y, jumpDest, .2f)));
+			
 			if(transform.position.y == jumpDest){
 				canDrop = true;
 				canJump = false;
+				
+				
+				
 			}
-
+			
 		}
-
+		
 		if(canDrop){
 			rigidbody2D.MovePosition(new Vector2(transform.position.x, Mathf.MoveTowards(transform.position.y, jumpStart, .2f)));
-
+			
 			if(transform.position.y == jumpStart){
 				canDrop = false;
 			}
 		}
+
+
 	}
 }
